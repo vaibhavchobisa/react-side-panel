@@ -1,15 +1,13 @@
 .home {
-  display: block;
   position: relative;
-  left: 50%;
-  top: 200px;
+  left: 30vw;
+  top: 40vh;
 }
 
 .interview {
-  display: block;
   position: relative;
-  left: 50%;
-  top: 200px;
+  left: 30vw;
+  top: 40vh;
 }
 
 .sidebar {
