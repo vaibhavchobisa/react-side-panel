@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { Outlet } from "react-router-dom";
-import { useState } from "react";
 
 const SidePanel = ({ isActive1, isActive2, toggleClass1, toggleClass2 }) => {
 

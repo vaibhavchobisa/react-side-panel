@@ -43,8 +43,8 @@ return (
   />
   }
   >
-    <Route path='/home' index element={< Home  />} />
-    <Route path="/interview" element={< Interview />} />
+    <Route path='/home' element={< Home  />} />
+    <Route path='/interview' element={< Interview />} />
   </Route>
 </Routes>
 );
