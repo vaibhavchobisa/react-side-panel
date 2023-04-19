@@ -1,13 +1,12 @@
-import { Link } from "react-router-dom";
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
-const SidePanel = ({ isActive1, isActive2, toggleClass1, toggleClass2 }) => {
+const SidePanel = ({ path }) => {
 
     return (
         <>
             <div className="sidebar">
-                <Link to="/home" className={isActive1 ? 'active' : null} onClick={toggleClass1} > Home </Link>
-                <Link to="/interview" className={isActive2 ? 'active' : null} onClick={toggleClass2}> Interview </Link>
+                <Link to="/home" className={path === '/home' ? 'active' : null} > Home </Link>
+                <Link to="/interview" className={path === '/interview' ? 'active' : null}  > Interview </Link>
             </div>
             <Outlet />
         </>
